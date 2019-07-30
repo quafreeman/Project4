@@ -30,6 +30,11 @@ body {
   height: 100vh;
 }
 
+body {
+  background-image: url(https://media.giphy.com/media/nh2UibFn9DEd2/giphy.gif);
+  background-size: cover;
+}
+
 li, ol, ul {
   padding: 0;
   display: inline-block;
@@ -101,6 +106,7 @@ button {
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
+  user-select:none;
 }
 
 .space {
@@ -188,7 +194,7 @@ button {
 }
 
 .win {
-  background-color: var(--color-win);
+  background-color: #78CF82;
 }
 
 .win a {
